@@ -12,14 +12,122 @@
     <link rel="stylesheet" href="css/carousel.css">
   </head>
   <body>
-    <h1>Esto es un ejercicio para hacer una página para la ETSIT URJC con componentes de Boostrap.</h1>
+      
+<button type="button" class="btn btn-primary">Profesores</button>
+ 
+<!-- Indica una acción exitosa o positiva -->
+<button type="button" class="btn btn-success">Mapa de la Escuela</button>
+ 
+<!-- Botón pensado para los mensajes con alertas informativas -->
+<button type="button" class="btn btn-info">Información</button>
+ 
+<!-- Indica que hay que tener cuidado con la acción asociada al botón -->
+<button type="button" class="btn btn-warning">Teléfono</button>
 
-    <p>La página web ha de usar al menos:</p>
-    <ul>
-      <li>Un <i>carousel</i> (con su barra de navegación)</li>
-      <li>Al menos dos componentes más de Boostrap (a elección del alumno)</<li>
-      <li>Al menos un componente de <a href="http://www.bootsnipp.com">Bootsnipp</a></li>
-    </ul>
+<ul class="nav nav-pills" role="tablist">
+  <li role="presentation" class="active"><a href="#">Página principal <span class="badge">42</span></a></li>
+  <li role="presentation"><a href="#">Perfil</a></li>
+  <li role="presentation"><a href="#">Mensajes <span class="badge">3</span></a></li>
+</ul>
+
+
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/aularioII-edificio.JPG" alt="AularioII">
+      </div>
+
+      <div class="item">
+        <img src="images/deparIII-edificio3.JPG" alt="Edificio3">
+      </div>
+
+      <div class="item">
+        <img src="images/deporte-estadio.JPG" alt="Estadio">
+      </div>
+
+       <div class="item">
+        <img src="images/labosII-edificio.JPG" alt="Labos II">
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="twPc-div">
+    <a class="twPc-bg twPc-block"></a>
+  <div>
+    <div class="twPc-button">
+            <!-- Twitter Button | you can get from: https://about.twitter.com/tr/resources/buttons#follow -->
+            <a href="https://twitter.com/urjc?lang=es" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false" data-dnt="true">Follow @mertskaplan</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <!-- Twitter Button -->   
+    </div>
+
+    <a title="URJC (oficial)" href="https://twitter.com/urjc?lang=es" class="twPc-avatarLink">
+      <img alt="URJC (oficial)" src="https://pbs.twimg.com/profile_images/687670548608987136/4C41S_b5.jpg" class="twPc-avatarImg">
+    </a>
+
+    <div class="twPc-divUser">
+      <div class="twPc-divName">
+        <a href="https://twitter.com/urjc?lang=es">URJC (oficial)</a>
+      </div>
+      <span>
+        <a href="https://twitter.com/urjc?lang=es">@<span>urjc</span></a>
+      </span>
+    </div>
+
+    <div class="twPc-divStats">
+      <ul class="twPc-Arrange">
+        <li class="twPc-ArrangeSizeFit">
+          <a href="https://twitter.com/urjc?lang=es" title="5.304 Tweet">
+            <span class="twPc-StatLabel twPc-block">Tweets</span>
+            <span class="twPc-StatValue">5.304</span>
+          </a>
+        </li>
+        <li class="twPc-ArrangeSizeFit">
+          <a href="https://twitter.com/urjc/following?lang=es" title="554 Following">
+            <span class="twPc-StatLabel twPc-block">Following</span>
+            <span class="twPc-StatValue">554</span>
+          </a>
+        </li>
+        <li class="twPc-ArrangeSizeFit">
+          <a href="https://twitter.com/urjc/followers?lang=es" title="39.8k Followers">
+            <span class="twPc-StatLabel twPc-block">Followers</span>
+            <span class="twPc-StatValue">39.8k</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- code end -->
+</div>
+</div>
+
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
